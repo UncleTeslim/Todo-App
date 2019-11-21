@@ -12,7 +12,6 @@ $("ul").on("click", "li", function(){
 		color: "red",
 		textDecoration: "line-through",
 	});
-	
 	}
 });
 
