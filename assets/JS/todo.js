@@ -34,6 +34,7 @@ $("ul").on("click", "span", function(e){
 	e.stopPropagation();
 });
 
+
 //Adding New To-do
 $("input[type='text'").keypress(function(e){
 	if(e.which === 13){
