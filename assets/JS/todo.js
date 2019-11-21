@@ -44,6 +44,7 @@ $("input[type='text'").keypress(function(e){
 	}
 });
 
+
 $(".fa-pencil-alt").click(function(){
 	$("input[type='text'").fadeToggle();
 });
