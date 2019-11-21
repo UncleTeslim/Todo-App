@@ -25,6 +25,7 @@ $("ul").on("click", "li", function(){
 
 It's pretty shorter you see!!!!! */
 
+
 //Delete Todo
 $("ul").on("click", "span", function(e){
 	$(this).parent().fadeOut(400,function(){
