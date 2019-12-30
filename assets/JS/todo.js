@@ -22,7 +22,7 @@ $("ul").on("click", "li", function(){
  		$(this).toggleClass("blablabla");
  	});
 
-It's pretty shorter you see!!!!! */
+It's pretty shorter you see!!!! */
 
 
 //Delete Todo
