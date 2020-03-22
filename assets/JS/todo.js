@@ -27,10 +27,12 @@ It's pretty shorter you see!!!! */
 
 //Delete Todo
 $("ul").on("click", "span", function(e){
-	$(this).parent().fadeOut(400,function(){
+	if (confirm("Are You Sure?")) {
+		$(this).parent().fadeOut(400,function(){
 		$(this).remove();
 	});
 	e.stopPropagation();
+	}
 });
 
 
